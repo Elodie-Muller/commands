@@ -14,7 +14,8 @@ vi nomscript
 puis pour enregistrer CTRL+c :wq! [enter]
 ```
 Lire un script 
-```cat nomscript
+```bash
+cat nomscript
 ```
 Soumettre un job sur le cluster CQLS-OSU (sans ouvrir de noeud)
 ```bash
