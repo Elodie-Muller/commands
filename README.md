@@ -1,14 +1,15 @@
 # Run script 
 
-## Ouvrir un noeud 
+Ouvrir un noeud 
 ```bash
 qrsh
+```
 
-## Exécuter un script 
+Exécuter un script 
 ```bash
 sh nomscript
 
-## Modifier un script
+Modifier un script
 ```bash
 vi nomscript
 puis pour enregistrer CTRL+c :wq! [enter]
