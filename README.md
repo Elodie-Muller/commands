@@ -1,21 +1,25 @@
 # Run script 
 
-##ouvrir un noeud 
-#qrsh
+Ouvrir un noeud 
+```bash
+qrsh
 
-##exécuter un script 
-#sh nomscript
+Exécuter un script 
+```bash
+sh nomscript
 
-##modifier un script
-#vi nomscript
-#puis pour enregistrer CTRL+c :wq! [enter]
+Modifier un script
+```bash
+vi nomscript
+puis pour enregistrer CTRL+c :wq! [enter]
 
-##lire un script 
-#cat nomscript
+Lire un script 
+```cat nomscript
 
 
-##soumettre un job 
-#SGE_Batch -c "./nomscript -parameters" -P 1 -q bpp -r nomjob
+Soumettre un job sur le cluster CQLS-OSU
+```bash
+SGE_Batch -c "./nomscript -parameters" -P 1 -q bpp -r nomjob
 
 
 # Mon Projet
